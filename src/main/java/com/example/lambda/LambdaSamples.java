@@ -20,7 +20,7 @@ public class LambdaSamples {
         }
 
         // Step1
-       /* Consumer<Integer> consumer = new Consumer<Integer>(){
+        /*Consumer<Long> consumer = new Consumer<Long>(){
             public void accept(Integer i){
                 System.out.print("\t" + i);
             }

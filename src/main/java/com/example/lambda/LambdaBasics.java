@@ -30,7 +30,7 @@ public class LambdaBasics {
     // This function is in an isolation which is not belongs to any class.
     // This function is accessible whoever has that variable.
     // Doesn't make sense to have access specifiers.
-    // Compiler is smart enout to identify what it return so no need of return type.
+    // Compiler is smart enough to identify what it return so no need of return type.
     // Again assigning block of code into variable to no need of function name.
     //greetingMessage = () -> System.out.println("Welcome to java!");
 
@@ -39,7 +39,7 @@ public class LambdaBasics {
         return a+b;
     }*/
     // If the function has only one line need not give return
-    //addNumbers = (int a, int b) -> return a + b;
+    //addNumbers = (int a, int b) -> a + b;
 
     // Step 4: Lets take little bit complex one
     /*devideNumber = (int a, int b) -> {
